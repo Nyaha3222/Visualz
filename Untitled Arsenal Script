@@ -1,8 +1,8 @@
-print("Loading Public Version 1")
+print("Loading GUI, Please Wait.")
 
 game:GetService("StarterGui"):SetCore("SendNotification",{
 Title = "Untitled Arsenal Script",
-Text = "Loading Public  V1", 
+Text = "Subscribe = -Visualz", 
 
 Duration = 10 
 })
@@ -1234,9 +1234,3 @@ return v15(
     v9(),
     ...
 )
-
-wait(1)
-game.StarterGui:SetCore("SendNotification", {
-Title = "Subscribe = Visualz_Gaming";
-Text = "Have Fun Exploiting!";
-})
