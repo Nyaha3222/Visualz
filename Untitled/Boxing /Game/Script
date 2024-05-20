@@ -1,8 +1,8 @@
 print("Loading GUI, Please Wait.")
 
 game:GetService("StarterGui"):SetCore("SendNotification",{
-Title = "Untitled Arsenal Script",
-Text = "Subscribe = -Visualz", 
+Title = "Untitled Boxing Game",
+Text = "Subscribe To = -Visualz", 
 
 Duration = 10 
 })
