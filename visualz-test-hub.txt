@@ -1,4 +1,4 @@
--- tsuo hub deob...
+-- Reaper Hub deob...
 
 
 
@@ -28,7 +28,7 @@ getgenv().clonefunc = nil
 local Notify = loadstring(game:HttpGet("https://raw.githubusercontent.com/x9PSwiftz/Panda/main/Notification.lua"))() 
 local instance = {obj = {}}
 local object = instance.obj
-local HubName = "Tsuo Hub"
+local HubName = "Reaper Hub"
 function instance.new(class, properties)
     local inst = Instance.new(class)
     for property, value in next, properties do
@@ -37,7 +37,7 @@ function instance.new(class, properties)
     table.insert(instance.obj, inst)
     return inst
 end
-object.TsuoHub = instance.new("ScreenGui", {
+object.ReaperHub = instance.new("ScreenGui", {
     Name = "Mo Mo Be";
     Parent = game.CoreGui;
     ZIndexBehavior = Enum.ZIndexBehavior.Sibling;
@@ -49,7 +49,7 @@ object.Main = instance.new("Frame", {
     BorderColor3 = Color3.fromRGB(0, 0, 0);
     BorderSizePixel = 0;
     Name = "Main";
-    Parent = object.TsuoHub;
+    Parent = object.ReaperHub;
     Position = UDim2.new(0.492770165, 0, 0.5, 0);
     Size = UDim2.new(0, 380, 0, 200);
 })
